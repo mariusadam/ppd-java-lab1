@@ -1,0 +1,60 @@
+benchmarksFile: /home/marius/IdeaProjects/ppd/lab1/data/benchamarks.csv
+testConfigs:
+  -
+    name: test case 1
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 2
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+    runType: threaded
+  -
+    name: test case 22
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 10
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+    runType: threaded
+  -
+    name: test case 123423
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 15
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+    runType: threaded
+  -
+    name: test case 1234234
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 200
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+    runType: threaded
+  -
+    name: test case 2
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: double
+    matrixType: uni_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+  -
+    name: test case 2
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
