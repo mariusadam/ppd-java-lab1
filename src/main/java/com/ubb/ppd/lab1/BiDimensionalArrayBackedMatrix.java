@@ -20,7 +20,7 @@ public class BiDimensionalArrayBackedMatrix<T> extends Matrix<T> {
     @Override
     T get(Integer position) {
         int col = position % getLinesCount();
-        int line = position / getColumnsCount() + col % 2;
+        int line = position / getColumnsCount();
         return get(line, col);
     }
 
@@ -32,7 +32,7 @@ public class BiDimensionalArrayBackedMatrix<T> extends Matrix<T> {
     @Override
     void set(Integer position, T value) {
         int col = position % getLinesCount();
-        int line = position / getColumnsCount() + col % 2;
+        int line = position / getColumnsCount();
         set(line, col, value);
     }
 }

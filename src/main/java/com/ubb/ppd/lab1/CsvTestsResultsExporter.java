@@ -17,12 +17,10 @@ public class CsvTestsResultsExporter implements TestsResultsExporter {
 
     @Override
     public void export(List<TestResult> results) {
-        try (FileWriter fw = new FileWriter(destination, true);
+        try (FileWriter fw = new FileWriter(destination);
              BufferedWriter bw = new BufferedWriter(fw);
              PrintWriter out = new PrintWriter(bw)) {
-            if (!destination.exists() || destination.length() == 0) {
-                out.println(HEADER);
-            }
+            out.println(HEADER);
 
             results.forEach(result -> out.println(getLine(result)));
         } catch (IOException e) {

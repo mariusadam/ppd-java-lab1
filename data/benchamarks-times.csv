@@ -1,0 +1,11 @@
+Name,Loaded As,Matrix,Operation,Run type,Thread count,Time,Millis
+Found an error while processing test result for test case 1 (No implemented yet)
+test case 22,int,uni_dimensional_array_backed,add,threaded,10,96(0 seconds, 96 millis),96
+test case 123423,int,uni_dimensional_array_backed,add,threaded,15,57(0 seconds, 57 millis),57
+test case 1234234,int,uni_dimensional_array_backed,add,threaded,200,61(0 seconds, 61 millis),61
+test case 2,double,uni_dimensional_array_backed,add,linear,null,78(0 seconds, 78 millis),78
+test case 2,double,bi_dimensional_array_backed,add,linear,null,133(0 seconds, 133 millis),133
+matrix linear,double,bi_dimensional_array_backed,add,linear,null,0(0 seconds, 0 millis),0
+array linear,double,uni_dimensional_array_backed,add,linear,null,0(0 seconds, 0 millis),0
+matrix threaded,double,bi_dimensional_array_backed,add,threaded,22,4(0 seconds, 4 millis),4
+array threaded,double,uni_dimensional_array_backed,add,threaded,22,2(0 seconds, 2 millis),2

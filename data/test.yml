@@ -58,3 +58,42 @@ testConfigs:
     runType: linear
     operation: add
     computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+
+  -
+    name: matrix linear
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+  -
+    name: array linear
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: uni_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+  -
+    name: matrix threaded
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    runType: threaded
+    threadsCount: 22
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results
+  -
+    name: array threaded
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: uni_dimensional_array_backed
+    runType: threaded
+    threadsCount: 22
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/results

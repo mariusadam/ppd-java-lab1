@@ -10,8 +10,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-import java.util.function.Consumer;
 
 /**
  * @author Marius Adam
@@ -37,11 +35,11 @@ public class Main {
         Matrix<Double> matrix = new DoubleMatrixBuilder(UniDimensionalArrayBackedMatrix::new).withGivenValue(10, 10, value);
         String file = "data/matrix-test-"+ value  +".txt";
 
-//        MatrixDumper.create().dumpToFile(new MatrixLinearDirectTransformer<Integer>(
+//        MatrixDumper.create().dumpToFile(new LinearMatrixAddOperation<Integer>(
 //                (integer, integer2) -> integer + integer2, UniDimensionalArrayBackedMatrix::new
 //        ).apply(matrix, matrix), file);
 
-        MatrixThreadedTransformer<Double> transformer = new MatrixThreadedTransformer<>(
+        ThreadedMatrixAddOperation<Double> transformer = new ThreadedMatrixAddOperation<>(
                 (integer, integer2) -> integer + integer2, UniDimensionalArrayBackedMatrix::new
         );
 

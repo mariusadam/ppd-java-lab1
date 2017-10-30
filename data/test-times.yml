@@ -1,0 +1,99 @@
+benchmarksFile: /home/marius/IdeaProjects/ppd/lab1/data/benchamarks-times.csv
+testConfigs:
+  -
+    name: test case 1
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 2
+    operation: times
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+    runType: threaded
+  -
+    name: test case 22
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 10
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+    runType: threaded
+  -
+    name: test case 123423
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 15
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+    runType: threaded
+  -
+    name: test case 1234234
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: int
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 200
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+    runType: threaded
+  -
+    name: test case 2
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: double
+    matrixType: uni_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+  -
+    name: test case 2
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/matrix-853800938.txt
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+
+  -
+    name: matrix linear
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+  -
+    name: array linear
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: uni_dimensional_array_backed
+    runType: linear
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+  -
+    name: matrix threaded
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    runType: threaded
+    threadsCount: 22
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
+  -
+    name: array threaded
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/1.txt
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/2.txt
+    loadAs: double
+    matrixType: uni_dimensional_array_backed
+    runType: threaded
+    threadsCount: 22
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1/data/times-result
