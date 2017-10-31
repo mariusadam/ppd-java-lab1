@@ -1,0 +1,19 @@
+Name,Loaded As,Matrix,Operation,Run type,Thread count,Millis
+complex-1000X1000-add-uni-linear,complex,uni_dimensional_array_backed,add,linear,null,92
+complex-10X10-add-bi-8-threads,complex,bi_dimensional_array_backed,add,threaded,8,3
+double-10X10-add-bi-2-threads,double,bi_dimensional_array_backed,add,threaded,2,10
+double-10X10-add-bi-4-threads,double,bi_dimensional_array_backed,add,threaded,4,1
+double-10X10-add-bi-6-threads,double,bi_dimensional_array_backed,add,threaded,6,4
+double-10X10-add-bi-8-threads,double,bi_dimensional_array_backed,add,threaded,8,5
+complex-10X10-add-uni-linear,complex,uni_dimensional_array_backed,add,linear,null,0
+complex-10X10-add-uni-50-threads,complex,uni_dimensional_array_backed,add,threaded,50,16
+complex-10X10-add-uni-2-threads,complex,uni_dimensional_array_backed,add,threaded,2,0
+complex-10X10-add-uni-4-threads,complex,uni_dimensional_array_backed,add,threaded,4,1
+complex-10X10-add-uni-6-threads,complex,uni_dimensional_array_backed,add,threaded,6,1
+complex-10X10-add-uni-8-threads,complex,uni_dimensional_array_backed,add,threaded,8,2
+complex-10X10-add-bi-linear,complex,bi_dimensional_array_backed,add,linear,null,0
+complex-10X10-add-bi-50-threads,complex,bi_dimensional_array_backed,add,threaded,50,9
+complex-10X10-add-bi-2-threads,complex,bi_dimensional_array_backed,add,threaded,2,5
+complex-10X10-add-bi-4-threads,complex,bi_dimensional_array_backed,add,threaded,4,0
+complex-10X10-add-bi-6-threads,complex,bi_dimensional_array_backed,add,threaded,6,0
+complex-10X10-add-bi-8-threads,complex,bi_dimensional_array_backed,add,threaded,8,0

@@ -15,4 +15,8 @@ public class Util {
             throw new NullPointerException();
         }
     }
+
+    public static double scaleRandomDouble(double val) {
+        return -10000 + val * (10000 + 10000);
+    }
 }

@@ -29,10 +29,10 @@ public abstract class Matrix<T> {
     }
 
 
-    abstract T get(Integer line, Integer col);
-    abstract T get(Integer position);
-    abstract void set(Integer line, Integer col, T value);
-    abstract void set(Integer position, T value);
+    public abstract T get(Integer line, Integer col);
+    public abstract T get(Integer position);
+    public abstract void set(Integer line, Integer col, T value);
+    public abstract void set(Integer position, T value);
 
 
     public Matrix<T> map(ElementMapper<T> mapFunction) {
@@ -64,7 +64,7 @@ public abstract class Matrix<T> {
         private Integer linesCount;
         private Integer columnsCount;
 
-        Dimension(Integer linesCount, Integer columnsCount) {
+        public Dimension(Integer linesCount, Integer columnsCount) {
             this.linesCount = linesCount;
             this.columnsCount = columnsCount;
         }

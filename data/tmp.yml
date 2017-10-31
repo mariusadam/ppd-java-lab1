@@ -1,0 +1,179 @@
+benchmarksFile: /home/marius/IdeaProjects/ppd/lab1/data/benchamarks-tmp.csv
+testConfigs:
+  -
+    name: complex-1000X1000-add-uni-linear
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-1000X1000_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-1000X1000_2.mat
+    loadAs: complex
+    matrixType: uni_dimensional_array_backed
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: linear
+  -
+    name: complex-10X10-add-bi-8-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 8
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: double-10X10-add-bi-2-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_2.mat
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 2
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: double-10X10-add-bi-4-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_2.mat
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 4
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: double-10X10-add-bi-6-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_2.mat
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 6
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: double-10X10-add-bi-8-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/double-10X10_2.mat
+    loadAs: double
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 8
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-uni-linear
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: uni_dimensional_array_backed
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: linear
+  -
+    name: complex-10X10-add-uni-50-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 50
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-uni-2-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 2
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-uni-4-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 4
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-uni-6-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 6
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-uni-8-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: uni_dimensional_array_backed
+    threadsCount: 8
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-bi-linear
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: bi_dimensional_array_backed
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: linear
+  -
+    name: complex-10X10-add-bi-50-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 50
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-bi-2-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 2
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-bi-4-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 4
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-bi-6-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 6
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded
+  -
+    name: complex-10X10-add-bi-8-threads
+    firstFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_1.mat
+    secondFile: /home/marius/IdeaProjects/ppd/lab1/data/input/complex-10X10_2.mat
+    loadAs: complex
+    matrixType: bi_dimensional_array_backed
+    threadsCount: 8
+    operation: add
+    computationResultDir: /home/marius/IdeaProjects/ppd/lab1
+    runType: threaded

@@ -1,11 +1,109 @@
-Name,Loaded As,Matrix,Operation,Run type,Thread count,Time,Millis
-Found an error while processing test result for test case 1 (No implemented yet)
-test case 22,int,uni_dimensional_array_backed,add,threaded,10,96(0 seconds, 96 millis),96
-test case 123423,int,uni_dimensional_array_backed,add,threaded,15,57(0 seconds, 57 millis),57
-test case 1234234,int,uni_dimensional_array_backed,add,threaded,200,61(0 seconds, 61 millis),61
-test case 2,double,uni_dimensional_array_backed,add,linear,null,78(0 seconds, 78 millis),78
-test case 2,double,bi_dimensional_array_backed,add,linear,null,133(0 seconds, 133 millis),133
-matrix linear,double,bi_dimensional_array_backed,add,linear,null,0(0 seconds, 0 millis),0
-array linear,double,uni_dimensional_array_backed,add,linear,null,0(0 seconds, 0 millis),0
-matrix threaded,double,bi_dimensional_array_backed,add,threaded,22,4(0 seconds, 4 millis),4
-array threaded,double,uni_dimensional_array_backed,add,threaded,22,2(0 seconds, 2 millis),2
+Name,Loaded As,Matrix,Operation,Run type,Thread count,Millis
+int-1000X1000-times-uni-linear,int,uni_dimensional_array_backed,times,linear,null,69230
+int-1000X1000-times-uni-50-threads,int,uni_dimensional_array_backed,times,threaded,50,32748
+int-1000X1000-times-uni-2-threads,int,uni_dimensional_array_backed,times,threaded,2,40012
+int-1000X1000-times-uni-4-threads,int,uni_dimensional_array_backed,times,threaded,4,33806
+int-1000X1000-times-uni-6-threads,int,uni_dimensional_array_backed,times,threaded,6,32922
+int-1000X1000-times-uni-8-threads,int,uni_dimensional_array_backed,times,threaded,8,23426
+int-1000X1000-times-bi-linear,int,bi_dimensional_array_backed,times,linear,null,104393
+int-1000X1000-times-bi-50-threads,int,bi_dimensional_array_backed,times,threaded,50,25468
+int-1000X1000-times-bi-2-threads,int,bi_dimensional_array_backed,times,threaded,2,55257
+int-1000X1000-times-bi-4-threads,int,bi_dimensional_array_backed,times,threaded,4,21058
+int-1000X1000-times-bi-6-threads,int,bi_dimensional_array_backed,times,threaded,6,39114
+int-1000X1000-times-bi-8-threads,int,bi_dimensional_array_backed,times,threaded,8,30433
+double-1000X1000-times-uni-linear,double,uni_dimensional_array_backed,times,linear,null,103811
+double-1000X1000-times-uni-50-threads,double,uni_dimensional_array_backed,times,threaded,50,48687
+double-1000X1000-times-uni-2-threads,double,uni_dimensional_array_backed,times,threaded,2,51943
+double-1000X1000-times-uni-4-threads,double,uni_dimensional_array_backed,times,threaded,4,42593
+double-1000X1000-times-uni-6-threads,double,uni_dimensional_array_backed,times,threaded,6,43056
+double-1000X1000-times-uni-8-threads,double,uni_dimensional_array_backed,times,threaded,8,42899
+double-1000X1000-times-bi-linear,double,bi_dimensional_array_backed,times,linear,null,92381
+double-1000X1000-times-bi-50-threads,double,bi_dimensional_array_backed,times,threaded,50,56707
+double-1000X1000-times-bi-2-threads,double,bi_dimensional_array_backed,times,threaded,2,46909
+double-1000X1000-times-bi-4-threads,double,bi_dimensional_array_backed,times,threaded,4,57127
+double-1000X1000-times-bi-6-threads,double,bi_dimensional_array_backed,times,threaded,6,38636
+double-1000X1000-times-bi-8-threads,double,bi_dimensional_array_backed,times,threaded,8,59536
+complex-1000X1000-times-uni-linear,complex,uni_dimensional_array_backed,times,linear,null,155913
+complex-1000X1000-times-uni-50-threads,complex,uni_dimensional_array_backed,times,threaded,50,55334
+complex-1000X1000-times-uni-2-threads,complex,uni_dimensional_array_backed,times,threaded,2,74997
+complex-1000X1000-times-uni-4-threads,complex,uni_dimensional_array_backed,times,threaded,4,70912
+complex-1000X1000-times-uni-6-threads,complex,uni_dimensional_array_backed,times,threaded,6,52008
+complex-1000X1000-times-uni-8-threads,complex,uni_dimensional_array_backed,times,threaded,8,64246
+complex-1000X1000-times-bi-linear,complex,bi_dimensional_array_backed,times,linear,null,173438
+complex-1000X1000-times-bi-50-threads,complex,bi_dimensional_array_backed,times,threaded,50,68380
+complex-1000X1000-times-bi-2-threads,complex,bi_dimensional_array_backed,times,threaded,2,62571
+complex-1000X1000-times-bi-4-threads,complex,bi_dimensional_array_backed,times,threaded,4,65542
+complex-1000X1000-times-bi-6-threads,complex,bi_dimensional_array_backed,times,threaded,6,72285
+complex-1000X1000-times-bi-8-threads,complex,bi_dimensional_array_backed,times,threaded,8,50987
+int-100X100-times-uni-linear,int,uni_dimensional_array_backed,times,linear,null,52
+int-100X100-times-uni-50-threads,int,uni_dimensional_array_backed,times,threaded,50,43
+int-100X100-times-uni-2-threads,int,uni_dimensional_array_backed,times,threaded,2,33
+int-100X100-times-uni-4-threads,int,uni_dimensional_array_backed,times,threaded,4,25
+int-100X100-times-uni-6-threads,int,uni_dimensional_array_backed,times,threaded,6,23
+int-100X100-times-uni-8-threads,int,uni_dimensional_array_backed,times,threaded,8,35
+int-100X100-times-bi-linear,int,bi_dimensional_array_backed,times,linear,null,38
+int-100X100-times-bi-50-threads,int,bi_dimensional_array_backed,times,threaded,50,32
+int-100X100-times-bi-2-threads,int,bi_dimensional_array_backed,times,threaded,2,17
+int-100X100-times-bi-4-threads,int,bi_dimensional_array_backed,times,threaded,4,17
+int-100X100-times-bi-6-threads,int,bi_dimensional_array_backed,times,threaded,6,20
+int-100X100-times-bi-8-threads,int,bi_dimensional_array_backed,times,threaded,8,18
+double-100X100-times-uni-linear,double,uni_dimensional_array_backed,times,linear,null,100
+double-100X100-times-uni-50-threads,double,uni_dimensional_array_backed,times,threaded,50,53
+double-100X100-times-uni-2-threads,double,uni_dimensional_array_backed,times,threaded,2,69
+double-100X100-times-uni-4-threads,double,uni_dimensional_array_backed,times,threaded,4,48
+double-100X100-times-uni-6-threads,double,uni_dimensional_array_backed,times,threaded,6,40
+double-100X100-times-uni-8-threads,double,uni_dimensional_array_backed,times,threaded,8,49
+double-100X100-times-bi-linear,double,bi_dimensional_array_backed,times,linear,null,72
+double-100X100-times-bi-50-threads,double,bi_dimensional_array_backed,times,threaded,50,38
+double-100X100-times-bi-2-threads,double,bi_dimensional_array_backed,times,threaded,2,40
+double-100X100-times-bi-4-threads,double,bi_dimensional_array_backed,times,threaded,4,39
+double-100X100-times-bi-6-threads,double,bi_dimensional_array_backed,times,threaded,6,38
+double-100X100-times-bi-8-threads,double,bi_dimensional_array_backed,times,threaded,8,35
+complex-100X100-times-uni-linear,complex,uni_dimensional_array_backed,times,linear,null,132
+complex-100X100-times-uni-50-threads,complex,uni_dimensional_array_backed,times,threaded,50,70
+complex-100X100-times-uni-2-threads,complex,uni_dimensional_array_backed,times,threaded,2,138
+complex-100X100-times-uni-4-threads,complex,uni_dimensional_array_backed,times,threaded,4,44
+complex-100X100-times-uni-6-threads,complex,uni_dimensional_array_backed,times,threaded,6,63
+complex-100X100-times-uni-8-threads,complex,uni_dimensional_array_backed,times,threaded,8,56
+complex-100X100-times-bi-linear,complex,bi_dimensional_array_backed,times,linear,null,85
+complex-100X100-times-bi-50-threads,complex,bi_dimensional_array_backed,times,threaded,50,55
+complex-100X100-times-bi-2-threads,complex,bi_dimensional_array_backed,times,threaded,2,52
+complex-100X100-times-bi-4-threads,complex,bi_dimensional_array_backed,times,threaded,4,51
+complex-100X100-times-bi-6-threads,complex,bi_dimensional_array_backed,times,threaded,6,51
+complex-100X100-times-bi-8-threads,complex,bi_dimensional_array_backed,times,threaded,8,92
+int-10X10-times-uni-linear,int,uni_dimensional_array_backed,times,linear,null,0
+int-10X10-times-uni-50-threads,int,uni_dimensional_array_backed,times,threaded,50,1
+int-10X10-times-uni-2-threads,int,uni_dimensional_array_backed,times,threaded,2,0
+int-10X10-times-uni-4-threads,int,uni_dimensional_array_backed,times,threaded,4,0
+int-10X10-times-uni-6-threads,int,uni_dimensional_array_backed,times,threaded,6,1
+int-10X10-times-uni-8-threads,int,uni_dimensional_array_backed,times,threaded,8,0
+int-10X10-times-bi-linear,int,bi_dimensional_array_backed,times,linear,null,0
+int-10X10-times-bi-50-threads,int,bi_dimensional_array_backed,times,threaded,50,0
+int-10X10-times-bi-2-threads,int,bi_dimensional_array_backed,times,threaded,2,0
+int-10X10-times-bi-4-threads,int,bi_dimensional_array_backed,times,threaded,4,0
+int-10X10-times-bi-6-threads,int,bi_dimensional_array_backed,times,threaded,6,0
+int-10X10-times-bi-8-threads,int,bi_dimensional_array_backed,times,threaded,8,1
+double-10X10-times-uni-linear,double,uni_dimensional_array_backed,times,linear,null,0
+double-10X10-times-uni-50-threads,complex,uni_dimensional_array_backed,times,threaded,50,3
+double-10X10-times-uni-2-threads,double,uni_dimensional_array_backed,times,threaded,2,1
+double-10X10-times-uni-4-threads,double,uni_dimensional_array_backed,times,threaded,4,1
+double-10X10-times-uni-6-threads,double,uni_dimensional_array_backed,times,threaded,6,0
+double-10X10-times-uni-8-threads,double,uni_dimensional_array_backed,times,threaded,8,1
+double-10X10-times-bi-linear,double,bi_dimensional_array_backed,times,linear,null,0
+double-10X10-times-bi-50-threads,double,bi_dimensional_array_backed,times,threaded,50,1
+double-10X10-times-bi-2-threads,double,bi_dimensional_array_backed,times,threaded,2,1
+double-10X10-times-bi-4-threads,double,bi_dimensional_array_backed,times,threaded,4,2
+double-10X10-times-bi-6-threads,double,bi_dimensional_array_backed,times,threaded,6,1
+double-10X10-times-bi-8-threads,double,bi_dimensional_array_backed,times,threaded,8,1
+complex-10X10-times-uni-linear,complex,uni_dimensional_array_backed,times,linear,null,0
+complex-10X10-times-uni-50-threads,complex,uni_dimensional_array_backed,times,threaded,50,1
+complex-10X10-times-uni-2-threads,complex,uni_dimensional_array_backed,times,threaded,2,1
+complex-10X10-times-uni-4-threads,complex,uni_dimensional_array_backed,times,threaded,4,0
+complex-10X10-times-uni-6-threads,complex,uni_dimensional_array_backed,times,threaded,6,0
+complex-10X10-times-uni-8-threads,complex,uni_dimensional_array_backed,times,threaded,8,1
+complex-10X10-times-bi-linear,complex,bi_dimensional_array_backed,times,linear,null,0
+complex-10X10-times-bi-50-threads,complex,bi_dimensional_array_backed,times,threaded,50,3
+complex-10X10-times-bi-2-threads,complex,bi_dimensional_array_backed,times,threaded,2,0
+complex-10X10-times-bi-4-threads,complex,bi_dimensional_array_backed,times,threaded,4,0
+complex-10X10-times-bi-6-threads,complex,bi_dimensional_array_backed,times,threaded,6,0
+complex-10X10-times-bi-8-threads,complex,bi_dimensional_array_backed,times,threaded,8,0
